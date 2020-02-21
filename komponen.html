@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Rubik:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="__main-wrapper">
+        <div class="___sidebar">
+            <div class="__sidebar-group">
+                <h6>Dashboard</h6>
+                <div class="list-group">
+                    <a class="list-group-item" href="index.html">
+                        <i data-feather="home"></i>
+                        <span>Dashboard</span>
+                    </a>
+                    <a class="list-group-item" href="komponen.html">
+                        <i data-feather="folder"></i>
+                        <span>Komponen</span>
+                    </a>
+                    <a class="list-group-item" href="#">
+                        <i data-feather="grid"></i>
+                        <span>Tabel</span>
+                    </a>
+                    <a class="list-group-item" href="#">
+                        <i data-feather="user"></i>
+                        <span>Profile</span>
+                    </a>
+                </div>    
+            </div>
+            <div class="__sidebar-group">
+                <h6>Pages</h6>
+                <div class="list-group">
+                    <a class="list-group-item" href="#">
+                        <i data-feather="unlock"></i>
+                        <span>Login</span>
+                    </a>
+                    <a class="list-group-item" href="#">
+                        <i data-feather="user-plus"></i>
+                        <span>Register</span>
+                    </a>
+                </div>    
+            </div>
+            <a class="___user" href="#">
+                <img src="assets/images/Team-Member-3.jpg" width="40px" height="40px" alt="">
+                <div class="caption">
+                    <h3>John Doe</h3>
+                    <h5>Administrator</h5>
+                </div>
+            </a>
+        </div>
+        <div class="___content">
+            <div class="container">
+                <div class="component bg-white p-5 rad-ul">
+                    <h4>Button</h4>
+                    <div class="bd-example">
+                        <button type="button" class="btn btn-primary">Primary</button>
+                        <button type="button" class="btn btn-secondary">Secondary</button>
+                        <button type="button" class="btn btn-success">Success</button>
+                        <button type="button" class="btn btn-danger">Danger</button>
+                        <button type="button" class="btn btn-warning">Warning</button>
+                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-light">Light</button>
+                        <button type="button" class="btn btn-dark">Dark</button>
+                        <button type="button" class="btn btn-link">Link</button>
+                        <button type="button" class="btn btn-outline-primary">Primary</button>
+                        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                        <button type="button" class="btn btn-outline-success">Success</button>
+                        <button type="button" class="btn btn-outline-danger">Danger</button>
+                        <button type="button" class="btn btn-outline-warning">Warning</button>
+                        <button type="button" class="btn btn-outline-info">Info</button>
+                        <button type="button" class="btn btn-outline-light">Light</button>
+                        <button type="button" class="btn btn-outline-dark">Dark</button>
+                    </div>
+                    <hr/>
+                    <h4>Input</h4>
+                    <div class="grup">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="basic-addon1"><i data-feather="at-sign"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                          
+                          <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                              <span class="input-group-text" id="basic-addon2">@example.com</span>
+                            </div>
+                          </div>
+                          
+                          <label for="basic-url">Your vanity URL</label>
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                            </div>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                          </div>
+                          
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text"><i data-feather="dollar-sign"></i></span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                              <span class="input-group-text">.00</span>
+                            </div>
+                          </div>
+                          
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">With textarea</span>
+                            </div>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <hr/>
+                        <h4>Select</h4>
+                        <div class="form-group mt-4">
+                          <select id="inputState" class="form-control select-control">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                            <option>...</option>
+                            <option>...</option>
+                            <option>...</option>
+                        </select>
+                        </div>
+                        <div class="form-group mt-4">
+                            <select id="Zrt" class="form-control select-control alter">
+                              <option selected>Choose...</option>
+                              <option>...</option>
+                              <option>...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                        </div>
+                    <hr/>
+                    <h4>Input Alternative</h4>
+                    <div class="grup">
+                        <div class="input-group mb-3 alter">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text alter" id="basic-addon1"><i data-feather="at-sign"></i></span>
+                            </div>
+                            <input type="text" class="form-control alter" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                              Default checkbox
+                            </label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                            <label class="form-check-label" for="defaultCheck2">
+                              Disabled checkbox
+                            </label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              Default radio
+                            </label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                              Second default radio
+                            </label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                            <label class="form-check-label" for="exampleRadios3">
+                              Disabled radio
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">2</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+                            <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="___menu-sidebar d-lg-none rad-100"><i data-feather="menu"></i></div>
+    </div>
+    <script src="vendor/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        feather.replace();
+        $('.___menu-sidebar').click(function() {
+            $('.___sidebar').toggleClass('active');
+        });
+        $(document).ready(function() {
+            $('.select-control').select2();
+        });
+    </script>
+</body>
+</html>
