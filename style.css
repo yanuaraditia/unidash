@@ -44,6 +44,7 @@ a:hover {
     padding: .5rem 2rem;
     font-weight: 500;
     border-radius: 300px;
+    font-family: var(--font);
 }
 .btn-primary {
     background: var(--primary);
@@ -119,6 +120,9 @@ a:hover {
     border-color: var(--grey);
     height: auto;
 }
+.select-control.alter ~ .select2-container--default .select2-selection--single {
+    border: none;
+}
 .form-control:not(.alter):focus {
     box-shadow: 0 0 0 1px var(--primary-dark);
     border-color: var(--primary-dark);
@@ -143,7 +147,7 @@ a:hover {
     border-right: none;
 }
 .input-group.alter {
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
     border-radius: 8px;
     background: #fff;
     overflow: hidden;
@@ -165,7 +169,7 @@ a:hover {
 }
 .form-check .form-check-input ~ .form-check-label::before {
     content: "";
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
     width: 20px;
     height: 20px;
     background-color: #fff;
@@ -208,7 +212,7 @@ a:hover {
     right: 10px;
 }
 .select-control.alter ~ .select2-container--default .select2-selection--single {
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
     border: none;
 }
 .select2-container--open .select2-dropdown--below, .select2-container--open .select2-dropdown--above {
@@ -218,7 +222,7 @@ a:hover {
 .select2-container--open .select2-dropdown--below{
     border-radius: 0 0 8px 8px;
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
 }
 .select2-container--open .select2-dropdown--above{
     border-radius: 8px 8px 0 0;
@@ -343,7 +347,7 @@ a:hover {
 }
 .___session .container form {
     padding: 4rem 2rem;
-    background: #fff;
+    background: #f1f1f1;
 }
 .table td, .table th {
     vertical-align: middle;
@@ -429,7 +433,7 @@ progress::-webkit-progress-value::before {
     background: var(--primary);
     cursor: pointer;
     border-radius: 100px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
     transition: all .2s linear;
 }
 .range-control::-webkit-slider-thumb:hover {
