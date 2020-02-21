@@ -360,7 +360,7 @@ a:hover {
     border:none;
 }
 .modal-header {
-    padding: 2rem 1rem 1rem 2rem;
+    padding: 2rem 2rem .5rem;
     border:none;
 }
 .modal-header .close {
@@ -375,7 +375,14 @@ a:hover {
     padding: .5rem 2rem;
 }
 .modal-footer {
+    padding: .5rem 2rem 2rem;
     border: none;
+    justify-content: flex-start;
+}
+.modal-footer .btn-secondary {
+    color: #000;
+    background: #ddd!important;
+    border-color: #ddd!important;
 }
 .table td, .table th {
     vertical-align: middle;
@@ -496,15 +503,15 @@ progress::-webkit-progress-value::before {
     }
     .___content {
         margin-left: 0;
-        padding: 1rem;
+        padding: 1rem 0;
     }
     .___content .counter .counter-data {
         margin-bottom: 30px;
     }
     .___menu-sidebar {
         position: fixed;
-        right: 3rem;
-        bottom: 3rem;
+        right: 1rem;
+        bottom: 1rem;
         background: var(--primary);
         padding: 1rem;
         color: #fff;

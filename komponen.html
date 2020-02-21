@@ -270,8 +270,8 @@
                             
                             Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.                          </div>
                           <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                           </div>
                         </div>
                       </div>
@@ -292,6 +292,9 @@
         });
         $(document).ready(function() {
             $('.select-control').select2();
+        });
+        $(window).resize(function(){
+          $('.select-control').select2();
         });
     </script>
 </body>
