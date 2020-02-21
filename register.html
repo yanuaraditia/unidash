@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Rubik:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="__main-wrapper">
+        <div class="___session">
+            <div class="container">
+                <form class="rad-ul shadowed">
+                    <h3>Login</h3>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <div class="input-group alter">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text alter" id="basic-addon1">
+                                <i data-feather="at-sign"></i>
+                            </span>
+                        </div>
+                        <input type="email" class="form-control alter" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama pengguna">
+                      </div>
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <div class="input-group alter">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text alter" id="basic-addon1">
+                                    <i data-feather="unlock"></i>
+                                </span>
+                            </div>
+                            <input type="password" class="form-control alter" id="exampleInputPassword1" placeholder="Kata sandi">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <div class="input-group alter">
+                            <select name="#" class="form-control select-control" id="">
+                                <option value="">Pilih satu</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">I agree with <a href="#">Privacy Policy</a></label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Masuk</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="vendor/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        feather.replace();
+        $('.___menu-sidebar').click(function() {
+            $('.___sidebar').toggleClass('active');
+        });
+        $(document).ready(function() {
+            $('.select-control').select2();
+        });
+    </script>
+</body>
+</html>
