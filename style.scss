@@ -483,7 +483,7 @@ a {
                 margin-bottom: 1rem;
             }
             &.scroll {
-                padding: .5rem 2rem;
+                padding: 1rem 2rem;
                 background: rgba(255, 255, 255, .7);
                 backdrop-filter: blur(5px);
                 position: fixed;
@@ -493,19 +493,43 @@ a {
                 z-index: 999;
             }
         }
+        .dropdown {
+            &-menu {
+                border: none;
+            }
+        }
+        .search-form {
+            position: relative;
+            @media screen and (min-width:992px) {
+                .btn {
+                    position: absolute;
+                    right: .6rem;
+                }
+            }
+            .form-control {
+                padding-top: .45rem;
+                padding-bottom: .45rem;
+                background: transparent;
+            }
+        }
+        .btn {
+            padding: .45rem;
+        }
     }
 }
 
 .___session {
     height: 100vh;
-    background-image: linear-gradient(to bottom,var(--primary),var(--primary-dark));
+    @media screen and (min-width:992px) {
+        background-image: linear-gradient(to bottom,var(--primary),var(--primary-dark));
+    }
     overflow: auto;
     .container {
         max-width: 500px;
         padding: 5rem 0;
         form {
-            padding: 4rem 2rem;
-            background: #f1f1f1;
+            padding: 4rem 2rem 2rem 2rem;
+            background: #fff;
         }
     }
 }
